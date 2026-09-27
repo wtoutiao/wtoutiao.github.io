@@ -2,8 +2,48 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://wtoutiao.github.io/</loc>
-    <lastmod>2026-09-27</lastmod>
+    <lastmod>2026-10-01</lastmod>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://wtoutiao.github.io/articles/how-to-grow-tomatoes.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://wtoutiao.github.io/articles/how-to-grow-lettuce.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://wtoutiao.github.io/articles/best-vegetables-for-beginners.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://wtoutiao.github.io/articles/how-to-compost-at-home.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://wtoutiao.github.io/articles/how-to-water-plants.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://wtoutiao.github.io/articles/improve-garden-soil.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://wtoutiao.github.io/articles/how-to-grow-strawberries.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://wtoutiao.github.io/articles/garden-pests-natural-remedies.html</loc>
+    <lastmod>2026-10-01</lastmod>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://wtoutiao.github.io/articles/vegetable-garden-beginners.html</loc>
