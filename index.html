@@ -13,7 +13,10 @@
 <div class="topbar">Free step-by-step guides for growing your own food at home</div>
 <header>
   <div class="wrap bar">
-    <a class="logo" href="index.html">Backyard<span>Garden</span>Hub</a>
+    <a class="logo" href="index.html">
+      <svg class="leaf" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6 6 2 10 2 15a10 10 0 0 0 20 0c0-5-4-9-10-13z"/><path d="M5 21c4-2 7-5 9-10" stroke="rgba(255,255,255,.5)" stroke-width="1.4" fill="none" stroke-linecap="round"/></svg>
+      Backyard<span>Garden</span>Hub
+    </a>
     <nav>
       <a href="index.html" class="active">Home</a>
       <a href="articles/vegetable-garden-beginners.html">Vegetables</a>
@@ -24,11 +27,24 @@
 </header>
 
 <div class="hero">
-  <div class="decor"></div>
+  <svg class="decor" viewBox="0 0 120 120" fill="currentColor" aria-hidden="true"><path d="M60 15c-22 16-35 34-35 53a35 35 0 0 0 70 0c0-19-13-37-35-53z"/><path d="M25 68c18-6 33-12 44-22" stroke="rgba(255,255,255,.4)" stroke-width="2.5" fill="none" stroke-linecap="round"/></svg>
   <div class="wrap">
-    <span class="kicker">Gardening made simple</span>
-    <h1>Start Growing Your Own Food — Even If You've Never Gardened</h1>
-    <p>Simple, tested guides for beginners. Small space? No problem. Learn to grow herbs, vegetables, and berries with minimal effort and zero experience.</p>
+    <div class="inner">
+      <span class="kicker">Gardening made simple</span>
+      <h1>Start Growing Your Own Food — Even If You've Never Gardened</h1>
+      <p>Simple, tested guides for beginners. Small space? No problem. Learn to grow herbs, vegetables, and berries with minimal effort and zero experience.</p>
+      <a class="cta" href="#guides">Browse free guides
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="stats">
+  <div class="inner">
+    <div class="stat"><b>20+</b><span>free guides</span></div>
+    <div class="stat"><b>100%</b><span>beginner-friendly</span></div>
+    <div class="stat"><b>Free</b><span>forever, no sign-up</span></div>
   </div>
 </div>
 
@@ -36,7 +52,11 @@
   <!-- Google AdSense placeholder -->
   <div class="adslot">Advertisement area — AdSense ads will appear here once approved</div>
 
-  <div class="section-label">Latest guides</div>
+  <div class="section" id="guides">
+    <div class="section-label">Latest guides</div>
+    <h2 class="section-title">Start with these, grow your green thumb</h2>
+    <p class="section-sub">Hand-picked, step-by-step guides — from your first pot to a full harvest.</p>
+  </div>
   <div class="grid">
     <div class="card">
       <span class="cat">Water-smart</span>
@@ -164,8 +184,17 @@
 </div>
 
 <footer>
-  <p>BackyardGardenHub · Practical gardening guides</p>
-  <p><a href="index.html">Home</a> &middot; <a href="privacy-policy.html">Privacy</a> &middot; <a href="about.html">About</a> &middot; <a href="contact.html">Contact</a> &middot; © 2026</p>
+  <p class="foot-brand">BackyardGardenHub</p>
+  <div class="foot-nav">
+    <a href="index.html">Home</a>
+    <a href="articles/vegetable-garden-beginners.html">Vegetables</a>
+    <a href="articles/grow-herbs-indoors.html">Herbs</a>
+    <a href="articles/container-gardening-balcony.html">Container</a>
+    <a href="privacy-policy.html">Privacy</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </div>
+  <p>Practical gardening guides &middot; &copy; 2026</p>
 </footer>
 </body>
 </html>
