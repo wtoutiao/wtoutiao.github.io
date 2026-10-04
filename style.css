@@ -104,6 +104,26 @@ article .lead { font-size:18px; color:#3d4b43; }
 .back { display:inline-flex; align-items:center; gap:6px; margin:8px 0 30px; color:var(--green-700); text-decoration:none; font-size:14px; font-weight:600; }
 .back:hover { color:var(--accent); }
 
+/* ===== 文章页增强：提示框、步骤、相关推荐 ===== */
+.tip { background:var(--green-50); border-left:4px solid var(--green-600); padding:14px 18px; border-radius:8px; margin:20px 0; font-size:15.5px; color:#2e4a38; }
+.tip.gold { background:var(--gold-soft); border-left-color:var(--gold); color:#5a4a1d; }
+article ol.steps { counter-reset:step; list-style:none; padding-left:0; }
+article ol.steps li { counter-increment:step; position:relative; padding-left:44px; margin-bottom:16px; font-size:16.5px; }
+article ol.steps li::before { content:counter(step); position:absolute; left:0; top:2px; width:30px; height:30px; background:var(--green-600); color:#fff; border-radius:50%; display:flex; align-items:center; justify-content:center; font-weight:700; font-size:15px; }
+.related { margin:34px 0 6px; }
+.related h2 { border-bottom:none; margin-bottom:16px; }
+.related .rgrid { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:16px; }
+.related .rgrid a.card { text-decoration:none; color:inherit; display:flex; }
+.related .rgrid .card { box-shadow:var(--shadow); }
+.related .rgrid .card .cat { margin-bottom:6px; }
+.related .rgrid .card h3 { font-size:17px; }
+.related .rgrid .card p { font-size:14px; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
+.related .rgrid .card .thumb { height:130px; }
+
+/* ===== 卡片图 hover 细腻化 ===== */
+.card .thumb { transition:transform .3s ease; }
+.card:hover .thumb { transform:scale(1.04); }
+
 /* ===== 广告位占位 ===== */
 .adslot { border:1px dashed var(--line); background:var(--green-50); text-align:center; padding:22px; margin:26px 0; color:var(--muted); border-radius:var(--radius-sm); font-size:13px; letter-spacing:.4px; }
 
