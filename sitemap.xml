@@ -2,6 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://wtoutiao.github.io/</loc>
+    <lastmod>2026-10-07</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://wtoutiao.github.io/articles/how-to-grow-blueberries.html</loc>
+    <lastmod>2026-10-07</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://wtoutiao.github.io/articles/companion-planting-guide.html</loc>
+    <lastmod>2026-10-07</lastmod>
+    <priority>0.8</priority>
+  </url>
   <url>
     <loc>https://wtoutiao.github.io/articles/raised-garden-beds-beginners.html</loc>
     <lastmod>2026-10-05</lastmod>
@@ -11,9 +24,6 @@
     <loc>https://wtoutiao.github.io/articles/no-till-gardening-beginners.html</loc>
     <lastmod>2026-10-05</lastmod>
     <priority>0.8</priority>
-  </url>
-    <lastmod>2026-10-01</lastmod>
-    <priority>1.0</priority>
   </url>
   <url>
     <loc>https://wtoutiao.github.io/articles/drought-tolerant-plants.html</loc>
