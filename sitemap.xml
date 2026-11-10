@@ -2,8 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://wtoutiao.github.io/</loc>
-    <lastmod>2026-11-05</lastmod>
+    <lastmod>2026-11-09</lastmod>
     <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://wtoutiao.github.io/articles/leaf-mold-guide.html</loc>
+    <lastmod>2026-11-09</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://wtoutiao.github.io/articles/overwintering-plants-pots.html</loc>
+    <lastmod>2026-11-09</lastmod>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://wtoutiao.github.io/articles/fall-planted-bulbs.html</loc>
